@@ -1,0 +1,20 @@
+[package]
+authors = {workspace = true}
+categories = {workspace = true}
+description = "A markdown-it plugin allow Vue components in markdown."
+edition = {workspace = true}
+keywords = {workspace = true}
+license = "Apache-2.0"
+name = "vue_component"
+readme = "README.md"
+repository = {workspace = true}
+version = "0.1.0"
+
+[dependencies]
+markdown-it = {workspace = true}
+once_cell = {workspace = true}
+regex = {workspace = true}
+
+[dev-dependencies]
+dev = {path = "../dev"}
+testing = {workspace = true}
